@@ -138,12 +138,14 @@ void KetLuan(DSDV* a, int n)
 }
 int main()
 {
+	// nhập bằng file txt theo như định dạng sẵn
 	system("input.txt");
 	DSDV* a;
-	int n, dieukien, balo;
+	int n, balo;
 	cout << "Khoi luong balo co the dung duoc: ";
 	cin >> balo;
 	ifstream f("input.txt", ios_base::in);
+	// dịch sang phải 4 byte từ vị trí đầu
 	f.seekg(4, ios::beg);
 	f >> n;
 	a = new DSDV[n];
