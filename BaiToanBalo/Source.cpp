@@ -140,7 +140,7 @@ int main()
 {
 	system("input.txt");
 	DSDV* a;
-	int n, dieukien, balo;
+	int n, balo;
 	cout << "Khoi luong balo co the dung duoc: ";
 	cin >> balo;
 	ifstream f("input.txt", ios_base::in);
