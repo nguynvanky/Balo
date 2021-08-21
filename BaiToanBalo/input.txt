@@ -1,0 +1,6 @@
+SL: 4
+Ten TrongLuong GiaTri SoLuong
+A	18	37	5		
+B	7	24	3
+C	9 	19	4
+D	4	7	2
