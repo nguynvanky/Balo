@@ -138,6 +138,7 @@ void KetLuan(DSDV* a, int n)
 }
 int main()
 {
+	// nhập bằng file txt
 	system("input.txt");
 	DSDV* a;
 	int n, balo;
